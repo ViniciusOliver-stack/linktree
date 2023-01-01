@@ -1,7 +1,80 @@
 @import url(./reset.css);
 @import url(./snow.css);
 
+.animated-background{
+  background: #121212;
+  display: block;
+  width: 100%;
+  height: 100vh;
+}
 
-.container {
-  
+.container{
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.profile{
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-photo img{
+  width: 25%;
+  height: auto;
+}
+
+.profile-name{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.profile-acting{
+  color: #ccc;
+}
+
+.container-links .link{
+  border: 1px solid #ccc;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 1.2rem 5rem;
+}
+
+.container-links .link:hover{
+  background-color: rgba(0, 0, 0, .5);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .3s;
+}
+
+.link .link-icon,
+.link a{
+  font-size: 2rem;
+}
+
+.hashtag{
+  transition:all .6s ease-in-out;
+  animation: animated 1.3s ease-in-out infinite;
+}
+
+@keyframes animated {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
 }
