@@ -39,27 +39,49 @@
   color: #ccc;
 }
 
-.container-links .link{
-  border: 1px solid #ccc;
-  border-radius: 1.25rem;
+/*Social Link*/
+.social-links ul{
   display: flex;
   align-items: center;
-  justify-content: left;
-  gap: 2rem;
-  margin: 2rem;
-  padding: 1.2rem 5rem;
+  justify-content: center;
+  gap: 3.5rem;
 }
 
-.container-links .link:hover{
-  background-color: rgba(0, 0, 0, .5);
+.social-links ul li a i{
+  font-size: 2.5rem;
+}
+
+
+/*Links*/
+.container-links ul{
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem 0;
+}
+
+.container-links ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.6rem 2.4rem;
+  margin: 0 0 1.3rem;
+
+  border: 1px solid #f1f1f1;
+  border-radius: .8rem;
+
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.container-links ul li:hover{
   cursor: pointer;
-  transform: scale(1.1);
-  transition: all .3s;
-}
 
-.link .link-icon,
-.link a{
-  font-size: 2rem;
+  border: 1.5px solid #f1f1f1;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 .hashtag{
