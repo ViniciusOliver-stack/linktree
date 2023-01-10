@@ -16,9 +16,9 @@ export default createGlobalStyle`
     list-style: none;
     outline: none;
   }
+
 .animated-background{
   background: #121212;
-
 }
 
 #stars {

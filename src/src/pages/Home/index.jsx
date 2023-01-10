@@ -27,9 +27,6 @@ export function Home() {
 
         <ButtonLink href="#" 
         title="Discovery my portfolio" />
-
-        <ButtonLink href="https://github.com/ViniciusOliver-stack/Rocketseat-Explorer/tree/main/projeto-09" 
-        title="See my last project" />
       </ul>
 
       <p class="hashtag">Seeking the next level! 💜</p>

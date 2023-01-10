@@ -13,14 +13,14 @@ export const Container = styled.a`
   padding: 1.3rem 2.6rem;
   margin: 1rem;
 
-  background: rgba(255, 255, 255, 0.23);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(3.5px);
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  background: #ffffff1a;
+  border-radius: 8px;
+  backdrop-filter: blur(.4rem);
+  -webkit-backdrop-filter: blur(.4rem);
+  border: 1.5px solid #00000080;
 
   &:hover{
     filter: brightness(.5);
+    border: 1px solid #fff;
   }
 `
