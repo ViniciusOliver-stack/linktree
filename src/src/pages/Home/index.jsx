@@ -16,19 +16,19 @@ export function Home() {
 
       <ul>
 
-        <ButtonLink link="https://www.linkedin.com/in/viniciussantos-oliveira/" 
+        <ButtonLink href="https://www.linkedin.com/in/viniciussantos-oliveira/" 
         title="Add on me Linkedin" />
 
-        <ButtonLink link="https://github.com/ViniciusOliver-stack" 
+        <ButtonLink href="https://github.com/ViniciusOliver-stack" 
         title="Add on me Github" />
 
-        <ButtonLink link="../../pdf/CV.pdf" 
+        <ButtonLink href="https://drive.google.com/uc?id=1R5_hhN5klm7w-jm6FSX8QWu23CTMlZ3J&export=download" 
         title="Download CV" />
 
-        <ButtonLink link="#" 
+        <ButtonLink href="#" 
         title="Discovery my portfolio" />
 
-        <ButtonLink link="https://github.com/ViniciusOliver-stack/Rocketseat-Explorer/tree/main/projeto-09" 
+        <ButtonLink href="https://github.com/ViniciusOliver-stack/Rocketseat-Explorer/tree/main/projeto-09" 
         title="See my last project" />
       </ul>
 

@@ -1,9 +1,9 @@
 import { Container } from './style'
 
-export function ButtonLink({title, link}){
+export function ButtonLink({title, ...rest}){
   return(
     <Container
-   href={link}
+    {...rest}
     target="_blank"
     >
       {title}
