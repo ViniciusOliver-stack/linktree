@@ -2,7 +2,7 @@
 
 Site simples para agrupar todos os meus perfis das redes sociais em um só lugar.
 
-![Apresentação do projeto linktree](https://i.imgur.com/u2e2dVn.png)
+![Apresentação do projeto linktree](https://i.imgur.com/Vlj9KOP.png)
 
 
 ## :file_folder: Sobre o projeto
