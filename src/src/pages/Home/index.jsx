@@ -11,7 +11,7 @@ export function Home() {
       </section>
 
       <img src="https://iili.io/H5kGAjp.png" alt="" />
-      <h1>Developer Front-end</h1>
+      <h1>Vinicius Santos Oliveira</h1>
       <p>Developer Front-end</p>
 
       <ul>
@@ -22,7 +22,7 @@ export function Home() {
         <ButtonLink link="https://github.com/ViniciusOliver-stack" 
         title="Add on me Github" />
 
-        <ButtonLink link="#" 
+        <ButtonLink link="../../pdf/CV.pdf" 
         title="Download CV" />
 
         <ButtonLink link="#" 
